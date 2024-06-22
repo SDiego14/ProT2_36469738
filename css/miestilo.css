@@ -1,0 +1,271 @@
+body {
+    background-color: #eaf2e3;
+    color: #204d0a;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+/*Aplico a mi clase un estilo particular*/
+.p1 {
+
+    font-size: 20px;
+    text-justify: auto;
+    text-align: center;
+    font-style: Arial;
+
+}
+
+.div1 {
+
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+
+.div2 {
+
+    text-align: left;
+    display: block;
+    /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
+    margin: 0 auto;
+    /* Centrar las imágenes horizontalmente */
+    max-width: 5%;
+    /* Asegurar que las imágenes no excedan el ancho del contenedor */
+
+
+}
+
+.div3 {
+
+    text-align: center;
+    padding: 10px
+}
+
+
+header {
+    background-color: #69bd45;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+    /* espaciado para la sección de 20 pixeles */
+}
+
+footer {
+    background-color: #4caf50;
+    /* Color de fondo del footer */
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 800px;
+    /* Ancho máximo del contenido del footer */
+    margin: 0 auto;
+    /* Centrar el contenido del footer horizontalmente */
+    text-align: center;
+}
+
+nav {
+    background-color: #4caf50;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #2f8247;
+}
+
+
+img {
+    display: block;
+    /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
+    margin: 0 auto;
+    /* Centrar las imágenes horizontalmente */
+    max-width: 100%;
+    /* Asegurar que las imágenes no excedan el ancho del contenedor */
+    border: 3px solid #69bd45;
+    /* Contorno de 3px con un color verde (#69bd45) alrededor de la img.*/
+    border-radius: 10px;
+    /* Borde redondeado de 10px para suavizar el contorno */
+}
+
+
+
+
+
+
+/* ------- cuerpo pagina registro --------*/
+.containerG {
+    /* border: 1px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+    /* También puedes especificar un ancho máximo para el contenedor si lo deseas */
+    max-width: 600px;
+
+}
+
+
+.containerG ul {
+    list-style: none;
+    text-align: center;
+    background: rgba(167, 160, 160, 0.678);
+    margin-top: 0px;
+    padding: 10px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.container-form {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    max-width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container-form label {
+    display: block;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    /* Ajusta este valor según tus preferencias */
+    padding-top: 10px;
+}
+
+.container-form input {
+    margin-left: 15px;
+    width: 93%;
+}
+
+.btn {
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.guardar {
+    background: rgb(4, 88, 18);
+    width: 80px;
+    padding: 4px 0;
+    border: 1px solid black;
+    color: white;
+    border-radius: 5px;
+}
+
+.cancelar {
+    background: rgb(221, 8, 8);
+    width: 80px;
+    padding: 4px 0;
+    border: 1px solid black;
+    color: white;
+    border-radius: 5px;
+}
+
+/* ----------- fin cuerpo pagina registro  -----------*/
+
+
+
+
+/* ----------- cuerpo pagina login ------------*/
+.containerL {
+    /* border: 1px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+    /* También puedes especificar un ancho máximo para el contenedor si lo deseas */
+    max-width: 600px;
+}
+
+.containerL ul {
+    list-style: none;
+    text-align: center;
+    background: rgba(167, 160, 160, 0.678);
+    margin-top: 0px;
+    padding: 10px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.container-login {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    max-width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.container-login {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    max-width: 450px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container-login label {
+    display: block;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    /* Ajusta este valor según tus preferencias */
+    padding-top: 10px;
+}
+
+.container-login input {
+    margin-left: 15px;
+    width: 93%;
+}
+
+p{
+    margin-left: 15px;
+}
+/* -----------fin cuerpo pagina login ------------*/
+
+
+/* ------- carrusel -----*/
+img{
+    max-width: 100%;
+}
+
+.containerCarrusel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#carouselExample {
+    max-width: 600px; /* Ajusta el ancho máximo según tus necesidades */
+    width: 100%;
+}
+/* ------- fin carrusel -----*/
